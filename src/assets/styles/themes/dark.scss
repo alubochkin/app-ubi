@@ -1,0 +1,14 @@
+.app.dark {
+    background-color: var(--dt-bg-color-primary);
+
+    color: var(--dt-font-color-primary);
+
+    & button {
+        background-color: var(--dt-bg-button);
+        border: none;
+        color: var(--dt-font-color-primary);
+    }
+
+    & title {
+    }
+}

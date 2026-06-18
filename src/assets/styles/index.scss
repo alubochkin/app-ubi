@@ -1,0 +1,23 @@
+@use './reset.scss';
+@use './variables/index.scss' as *;
+@use './mixins/index.scss' as *;
+@use './fonts/index.scss' as *;
+@use './themes/dark.scss';
+@use './themes/light.scss';
+
+html,
+body {
+    font-family: Cons sans-serif;
+    height: 100%;
+    font-size: var(--font-size-medium);
+}
+
+.app {
+    width: 100%;
+    min-height: 100vh;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}

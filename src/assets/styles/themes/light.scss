@@ -1,0 +1,14 @@
+.app.light {
+    background-color: var(--lt-bg-color-primary);
+
+    color: var(--lt-font-color-primary);
+
+    & button {
+        background-color: var(--lt-bg-button);
+        border: none;
+        color: var(--lt-color-button-text);
+    }
+
+    & title {
+    }
+}

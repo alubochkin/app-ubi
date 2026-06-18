@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "outDir": "./build/",
+        "noImplicitAny": true,
+        "module": "esnext",
+        "esModuleInterop": true,
+        "target": "es6",
+        "jsx": "react-jsx",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "ignoreDeprecations": "6.0"
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS",
+            "jsx": "react-jsx"
+        }
+    },
+    "include": ["src/**/*.tsx", "src/**/*.ts", "global.d.ts"],
+    "exclude": ["node_modules"]
+}
