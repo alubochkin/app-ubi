@@ -1,9 +1,125 @@
-./build
-/node_modules
+# Зависимости (node_modules)
+node_modules/
+.pnp/
+.pnp.js
+.yarn/
 
-./vscode
+# Логи и файлы, создаваемые при сборке
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
 
-.env.local
+# Результаты сборки
+build/
+dist/
+.vercel/
+.next/
+out/
+storybook-static/
+
+# Среда выполнения и IDE
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-*
+.wsl.localhost/
 
+# Кэши и временные файлы
+*.cache
+*.log
+*.tmp
+*.temp
+.eslintcache
+*.tsbuildinfo
+*.tsbuildinfo.json
+*.tgz
+*.tar.gz
+*.zip
+Thumbs.db
+Desktop.ini
 
+# Файлы для отладки
+*.pid
+*.seed
+*.pid.lock
+
+# Покрытие тестов
+coverage/
+.nyc_output/
+
+# Деплой и системные файлы
+.vercel
+.netlify
+.parcel-cache
+.vite
+.cache
+.publish
+.storybook
+storybook-static/
+
+# Утилиты и прочее
+.npm
+.yarn
+.pnpm-store
+.idea
+.vscode
+.history
+*.local
+*.secret
+*.pem
+*.key
+*.crt
+*.cert
+*.csr
+
+# Git hooks
+.git/hooks/
+.husky/_
+
+# Защита от случайного добавления больших файлов
+*.zip
+*.rar
+*.7z
+*.gz
+*.tar
+*.iso
+*.dmg
+*.exe
+*.msi
+*.bin
+*.dat
+*.raw
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.wma
+*.psd
+*.ai
+*.tif
+*.tiff
+*.eps
+*.dwg
+
+# Конфиги, которые могут отличаться у разных разработчиков
+*.local.json
+*.user
+*.userprefs
+*.suo
+*.sln.docstates
