@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_ubi=self.webpackChunkapp_ubi||[]).push([[863],{863(e,u,a){a.r(u),a.d(u,{default:()=>s});var p=a(848);const s=()=>(0,p.jsx)("h1",{children:"About Page"})}}]);
